@@ -9,7 +9,7 @@ const router = new Router();
 // GET '/'
 // GET '/home'
 // GET '/index
-router.get(['/', '/home', '/index'], homeController.home);
+router.get(['/', '/home', '/menu', '/index'], homeController.home);
 
 // GET '/about
 router.get(['/about'], homeController.about);
